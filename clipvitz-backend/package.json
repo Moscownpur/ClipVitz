@@ -1,6 +1,5 @@
-
-   {
-     "name": "moscownpur-backend",
+{
+     "name": "ClipVitz-backend",
      "version": "1.0.0",
      "main": "server.js",
      "scripts": {
@@ -18,4 +17,3 @@
        "groq-sdk": "^0.32.0"
      }
    }
-   
