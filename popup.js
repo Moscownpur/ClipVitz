@@ -68,7 +68,11 @@ document.addEventListener('DOMContentLoaded', () => {
         throw new Error('Empty response from Groq API. Please try again.');
       }
       
-      await navigator.clipboard.writeText(story);
+      // Add hashtags to the story
+      const hashtags = `\n\n#Moscownpur\n#Storytelling\n#Worldbuilding\n#GamifiedCreation\n#CreativeUniverse\n#AIForCreators\n#ComicMaking\n#IndieCreators\n#CollaborativeWriting\n#DigitalStorytelling\n#CharacterDesign\n#LoreBuilders\n#FantasyWorlds\n#CreatorCommunity\n#ImmersiveStories`;
+      
+      const finalContent = story + hashtags;
+      await navigator.clipboard.writeText(finalContent);
 
       // --- Success state ---
       statusEl.classList.remove('loading');
