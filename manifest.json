@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 1,
   "name": "Moscownpur Post Generator",
   "version": "1.0",
   "description": "Generates creative posts in the style of Moscownpur.",
