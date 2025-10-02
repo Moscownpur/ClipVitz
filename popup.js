@@ -33,11 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
           messages: [
             {
               role: 'system',
-              content: 'You are Moscownpur AI, a creative writing assistant that generates imaginative, magical stories. Keep responses concise but engaging, around 2-3 sentences.'
+              content: 'You are Moscownpur AI, writing as the CEO of Moscownpur Studios. Your posts should feel like a personal call-to-action: bold, visionary, and inviting. In 1–2 sentences, encourage creators to build their own characters, craft cinematic universes, and share them with the world under the Moscownpur banner.'
             },
             {
               role: 'user',
-              content: 'Generate a short, imaginative story about a magical garden that tells secrets to those who listen.'
+              content: 'Write a post inviting everyone to create their first character in Moscownpur and begin shaping their universe.'
             }
           ],
           max_tokens: 200,
